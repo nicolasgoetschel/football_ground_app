@@ -1,5 +1,5 @@
 class Country:
-    def __init__(self, name, flag, leagues):
+    def __init__(self, name, flag, league):
         self.name = name
         self.flag = flag
-        self.leagues = leagues
+        self.league = league
