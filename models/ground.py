@@ -4,4 +4,4 @@ class FootballGround:
         self.team = team
         self.location = location
         self.capacity = capacity
-        self.visited = visited
+        self.namevisited = visited
