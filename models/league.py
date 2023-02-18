@@ -1,5 +1,6 @@
 class League:
-    def __init__(self, name, logo, football_ground):
+    def __init__(self, name, logo, football_grounds, id = None):
         self.name = name
         self.logo = logo
-        self.football_ground = football_ground
+        self.grounds = football_grounds or []
+        self.id = id
