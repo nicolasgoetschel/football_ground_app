@@ -3,6 +3,9 @@ from flask import Blueprint
 from models.country import Country
 import repositories.country_repository as country_repository
 
-country_blueprint = Blueprint("country", __name__)
+countries_blueprint = Blueprint("countries", __name__)
 
-
+@app.route('/countries')
+def countries():
+    countries = country_repository.select_all()
+    return render_template("countries/index.htm", all_countries = countries)
