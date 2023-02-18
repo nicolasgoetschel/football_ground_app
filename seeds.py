@@ -26,7 +26,16 @@ ground_11 = FootballGround('McDiarmid Park', 'St Johnstone F.C.', 'Perth', 10696
 ground_12 = FootballGround('St Mirren Park', 'St Mirren F.C.', 'Paisley', 8023, False)
 
 # Scottish Championship
-
+ground_13 = FootballGround('Gayfield Park', 'Arbroath', 'Arbroath', 6600, False)
+ground_13 = FootballGround('Somerset Park', 'Arbroath', 'Arbroath', 10185, False)
+ground_13 = FootballGround('Balmoral Stadium', 'Arbroath', 'Arbroath', 2602, False)
+ground_13 = FootballGround('Dens Park', 'Arbroath', 'Arbroath', 11775, False)
+ground_13 = FootballGround('Cappielow Park', 'Arbroath', 'Arbroath', 11589, False)
+ground_13 = FootballGround('New Douglas Park', 'Arbroath', 'Arbroath', 6018, False)
+ground_13 = FootballGround('Caledonian Stadium', 'Arbroath', 'Arbroath', 7512, False)
+ground_13 = FootballGround('Firhill Stadium', 'Arbroath', 'Arbroath', 10102, False)
+ground_13 = FootballGround('Ochilview Park', 'Arbroath', 'Arbroath', 3746, False)
+ground_13 = FootballGround("Starks' Park", 'Arbroath', 'Arbroath', 8867, False)
 
 country_1 = Country('England', 'Flag', ['Premier League', 'English Championship', 'League One', 'League Two'])
 country_2 = Country('Scotland', 'Flag', ['Scottish Premiership', 'Scottish Championship'])
